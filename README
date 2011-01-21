@@ -1,0 +1,9 @@
+Google Chrome Extension Page: http://bit.ly/kitpub-chrome
+
+Typekit (http://typekit.com) is awesome, and they frequently update their font kits with new hinting, baselines, etc. In order for your kits to benefit from these updates, you have to republish them. If you have a lot of kits, that's a bit of a pain.
+
+This extension puts a button in your Typekit header called "Republish All Kits" that will, you guessed it, republish all of your kits for you.
+
+It works by gathering all of your kit ids and POSTing to the corresponding "publish" URL for each. It will also bypass the "your kit is really big" size warning.
+
+Note: I've only tested this with my personal account, so your mileage may vary.
