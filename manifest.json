@@ -1,0 +1,17 @@
+{
+	"name": "Republish All Typekit Kits",
+	"version": "1.0",
+	"description": "Puts a button in your Typekit header that lets you republish all of your kits at once.",
+	"homepage_url": "http://twitter.com/jingman",
+	"icons": {
+		"16": "icon@16.png",
+		"48": "icon@48.png",
+		"128": "icon@128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://typekit.com/*"],
+			"js": ["jquery.min.js", "script.js"]
+		}
+	]
+}
